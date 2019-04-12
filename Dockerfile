@@ -2,6 +2,7 @@ FROM debian:stretch
 
 MAINTAINER gulv@microsoft.com
 
+
 RUN echo "deb http://debian-archive.trafficmanager.net/debian/ stretch main contrib non-free" >> /etc/apt/sources.list && \
         echo "deb-src http://debian-archive.trafficmanager.net/debian/ stretch main contrib non-free" >> /etc/apt/sources.list && \
         echo "deb http://debian-archive.trafficmanager.net/debian-security/ stretch/updates main contrib non-free" >> /etc/apt/sources.list && \
